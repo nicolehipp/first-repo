@@ -9,13 +9,13 @@ void setup() {
 }
 
 void draw() {
-  background(255);
+  background(0);
 
   x += speedX;
   y += speedY;
 
-  fill(0);
-  ellipse(x, y, 20, 20);
+  fill(152, 208, 255);
+  ellipse(x, y, 40, 40);
 
   if (x >= width || x<= 0) {
     speedX *= -1;
