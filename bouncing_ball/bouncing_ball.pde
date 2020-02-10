@@ -11,6 +11,9 @@ void setup(){
 void draw(){
   background(255);
   
+  x += speedX;
+  y += speedY;
+  
   fill(0);
   ellipse(x, y, 20, 20);
   
